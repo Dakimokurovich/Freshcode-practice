@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    min-height: 100vh;
+}
+
+.block {
+    /* background: red; */
+    width: 591px;
+    height: 338px;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li:first-child h1{
+    font-size: 13px;
+    background: #7987AC;
+    padding: 45px 30px;
+    color: white;
+    font-weight: 400;
+    border-radius: 4px 0px 0px 0px;
+}
+
+.info {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+/* ul li:first-child .info{
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+} */
+
+ul li:first-child .info p {
+    padding: 9px 28px 9px 19px;
+}
+
+ul li:first-child .info li:last-child p{
+    padding-top: 38px;
+    border-radius: 0px 0px 0px 4px;
+}
+
+.info p.d {
+    background: #DBDBDB;
+}
+
+.info p.l {
+    background: #ECECEC;
+}
+
+.plan .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #4F628D;
+    color: white
+}
+
+.plan .text .plan-name{
+    font-size: 14px;
+    padding: 13px 25px 20px 26px;
+}
+
+.plan .text .price {
+    font-size: 25px;
+}
+
+.plan .text span {
+    font-size: 13px;
+    padding: 5px;
+}
+
+.text.t2 {
+    background: #2F4173;
+}
+
+.text.t3 {
+    background: #162954;
+}
+
+.text.t4 {
+    background: #07153A;
+    border-radius: 0px 4px 0px 0px;
+}
+
+.info.dop li p{
+    display: flex;
+    justify-content: center;
+    padding: 9px 0px 9px 0px;
+}
+
+.info.dop li:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    height: 47px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 25px;
+    background: #d3d3d3;
+    border: 1px solid #b9b9b9;
+    color: #79747d;
+    cursor: pointer;
+}
+
+.button.dd {
+    background:#E7E7E7;
+}
+
+.button.ll {
+    background: #F3F3F3;
+}
+
+.button.l {
+    background: #ECECEC;
+}
+
+.button.d {
+    background: #DBDBDB;
+}
+
+.button.d.r {
+    border-radius: 0px 0px 4px 0px;
+}
+
+.button.l {
+    background: #ECECEC;
+}
+
+.dd {
+    background: #E7E7E7;
+}
+
+.ll {
+    background: #F3F3F3
+}

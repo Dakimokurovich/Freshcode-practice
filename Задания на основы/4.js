@@ -1,0 +1,1 @@
+const car = {model: 'pro', price: "100000", year: "2007"};

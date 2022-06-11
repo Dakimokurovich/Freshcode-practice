@@ -1,0 +1,95 @@
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.nav-menu li {
+    /* margin-left: 40px; */
+    padding: 0px 20px;
+    margin-top: 22px;
+}
+
+.nav-menu li a {
+    color: #979797;
+}
+
+.nav-menu li a:hover {
+    color: black;
+}
+
+.nav-menu .logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+
+.passion {
+    display: flex;
+    justify-content: center;
+    margin-top: 295px;
+}
+
+.passion-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.passion-content h1 {
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.passion-content span {
+    font-size: 15px;
+    color: #979797;
+    font-family: 'Merriweather', italic;
+    font-weight: 100;
+}
+
+.passion-content .btn {
+    margin-top: 45px;
+}
+
+.passion-content .btn p {
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 20px 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.passion-content .btn p:hover {
+    background: black;
+    color: white;
+    border-color: #979797;
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    margin-top: 275px;
+}
+
+.scroll .bolls li{
+    width: 10px;
+    height: 10px;
+    background: #d0d0d0;
+    margin-top: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.scroll .bolls li:first-child {
+    opacity: 0.3;
+}
+.scroll .bolls li:nth-child(2) {
+    opacity: 0.6;
+}

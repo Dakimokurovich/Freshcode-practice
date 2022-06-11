@@ -1,0 +1,94 @@
+.contact-us-content h2{
+    font-size: 34px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 105px;
+}
+
+.contact-us-content .text-span {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #979797;
+    font-family: 'Merriweather', italic;
+    font-weight: 100;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.contact-list ul {
+    display: flex;
+    width: 545px;
+    justify-content: space-between;
+}
+
+.contact-list ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    height: 50px;
+}
+
+.contact-list ul li p {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #a0a0a0;
+}
+
+.form-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 145px;
+}
+
+.form-area form {
+    display: flex;
+    flex-direction: column;
+    height: 485px;
+    justify-content: space-between;
+}
+
+.form-area form input {
+    height: 50px;
+    width: 770px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.form-area form input::placeholder {
+    text-align: center;
+    color: #888888;
+    font-weight: 300;
+}
+
+.form-area form textarea {
+    height: 195px;
+    font-family: 'Roboto', sans-serif;
+    color: #888888;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 20px;
+    resize: none;
+}
+
+.form-area form .btn {
+    background: black;
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-area form .btn:hover {
+    background:steelblue;
+}

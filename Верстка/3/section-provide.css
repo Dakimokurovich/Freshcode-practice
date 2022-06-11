@@ -1,0 +1,122 @@
+.provide {
+    background: url(./img/bg.png) no-repeat;
+}
+
+.provide-content h2{
+    text-align: center;
+    font-size: 34px;
+    padding-top: 240px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.provide-content .text-span {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #979797;
+    font-family: 'Merriweather', italic;
+    font-weight: 100;
+}
+
+.we-provide-you {
+    display: flex;
+    justify-content: center;
+    margin-top: 210px;
+}
+
+.we-provide-you ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1175px;
+}
+
+.we-provide-you ul li {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-provide-you ul li:first-child .img:hover {
+    border-color: aquamarine;
+}
+.we-provide-you ul li:first-child .img:hover + p {
+    color: aquamarine;
+}
+.we-provide-you ul li:first-child .img:hover ~ span {
+    color: white;
+}
+
+.we-provide-you ul li:nth-child(2) .img:hover {
+    border-color:indianred;
+}
+.we-provide-you ul li:nth-child(2) .img:hover + p {
+    color: indianred;
+}
+.we-provide-you ul li:nth-child(2) .img:hover ~ span {
+    color: white;
+}
+
+.we-provide-you ul li:nth-child(3) .img:hover {
+    border-color:cornflowerblue;
+}
+.we-provide-you ul li:nth-child(3) .img:hover + p {
+    color: cornflowerblue;
+}
+.we-provide-you ul li:nth-child(3) .img:hover ~ span {
+    color: white;
+}
+
+.we-provide-you .img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.we-provide-you p {
+    font-size: 26px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    transition: .4s;
+}
+
+.we-provide-you span {
+    font-size: 18px;
+    color: #2f2f2f;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    transition: .4s;
+}
+
+.visit-blog-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 485px;
+    padding-bottom: 300px;
+}
+
+.visit-blog-btn p {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.visit-blog-btn p:hover {
+    background:gainsboro;
+}
