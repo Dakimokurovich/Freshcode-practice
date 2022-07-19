@@ -76,3 +76,24 @@
     font-family: 'Montserrat', sans-serif;
     color: #989898;
 }
+
+@media only screen and (max-width: 1028px) {
+
+    .years-content ul li{
+        justify-content: center !important;
+        align-items: center !important;
+        margin-bottom: 100px !important;
+    }
+
+    .years-content ul li:last-child {
+        margin-bottom: 0px !important;
+    }
+
+    .years-content ul li h3 {
+        justify-content: center !important;
+    }
+
+    .years::before {
+       display: none;
+    }
+}   

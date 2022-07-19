@@ -8,6 +8,8 @@
     content: '';
     background: url(./img/Buildings-White.png) no-repeat;
     width: 100.240%;
+    display: grid;
+    /* grid-template-columns: 1fr; */
     height: 237px;
     left: -5px;
     top: -324px;
@@ -87,4 +89,22 @@
     margin-left: 6px;
     margin-right: 6px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1028px) {
+    .team-content .our-team {
+        margin-top: 80px;
+    }
+
+    .team-content .our-team ul{
+        flex-direction: column;
+    }
+
+    .team-content .our-team ul li {
+        margin-bottom: 50px;
+    }
+
+    .team-content .our-team ul li .bro {
+        margin: 0 !important;
+    }
 }

@@ -93,3 +93,19 @@
 .scroll .bolls li:nth-child(2) {
     opacity: 0.6;
 }
+
+@media only screen and (max-width: 1028px) {
+    .nav-menu {
+       display: grid;
+       grid-template-columns: repeat(5, auto);
+    }
+
+    .nav-menu li.logo {
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    .nav-menu li:last-child {
+        grid-column: 5;
+    }
+}

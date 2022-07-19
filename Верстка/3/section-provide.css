@@ -1,5 +1,7 @@
 .provide {
-    background: url(./img/bg.png) no-repeat;
+    /* background: url(./img/bg.png) no-repeat; */
+    background: #000;
+    clip-path: polygon(0 14%, 100% 0%, 100% 89%, 0 100%);
 }
 
 .provide-content h2{
@@ -119,4 +121,24 @@
 
 .visit-blog-btn p:hover {
     background:gainsboro;
+}
+
+@media only screen and (max-width: 1028px) {
+    .we-provide-you {
+        margin-top: 80px;
+    }
+
+    .we-provide-you ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .we-provide-you ul li {
+        margin-bottom: 70px;
+    }
+
+    .visit-blog-btn {
+        margin-top: 100px;
+    }
 }
