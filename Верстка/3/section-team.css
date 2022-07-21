@@ -107,4 +107,13 @@
     .team-content .our-team ul li .bro {
         margin: 0 !important;
     }
+
+    .team::before {
+        width: 100%;
+        left: 0px;
+    }
+    .team::after {
+        width: 100%;
+        left: 0px;
+    }
 }

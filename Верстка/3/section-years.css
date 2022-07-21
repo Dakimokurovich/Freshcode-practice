@@ -97,3 +97,14 @@
        display: none;
     }
 }   
+
+@media only screen and (max-width: 615px) {
+    .years-content ul li p {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .years-content ul li .years-li-content {
+        width: 300px;
+    }
+}

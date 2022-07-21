@@ -107,3 +107,23 @@
         border: 2px solid;
     }
 }
+
+@media only screen and (max-width: 615px) {
+    .contact-list ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .contact-list ul li {
+        margin-bottom: 25px;
+    }
+
+    .form-area {
+        margin-top: 50px;
+    }
+
+    .form-area form input {
+        width: 300px;
+    }
+}

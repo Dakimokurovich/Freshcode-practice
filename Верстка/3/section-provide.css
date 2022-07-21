@@ -142,3 +142,13 @@
         margin-top: 100px;
     }
 }
+
+@media only screen and (max-width: 615px) {
+    .provide-content h2 {
+        font-size: 20px;
+    }
+
+    .provide-content .text-span {
+        font-size: 10px;
+    }
+}
